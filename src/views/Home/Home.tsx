@@ -1,7 +1,8 @@
-import React from 'react'
-import Frame from '../../components/Frame/Frame'
-import AnotherPage from "../../components/AnotherPage/AnotherPage"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LandingPageView from "../LandingPageView/LandingPage";
+import ProjectMaster from "../ProjectView/ProjectMaster";
+import DesignView from "../DesignView/DesignView";
+import DesignDetail from "../DesignView/DesignDetail";
 
 function Home() {
   return (
@@ -9,19 +10,23 @@ function Home() {
       <Router>
         <div>
           <Switch>
-            <Route path="/create-product">
-              <AnotherPage />
+            <Route path="/">
+              <LandingPageView />
             </Route>
-
-            <Route exact path="/">
-              <Frame />
+            <Route path="/project-master">
+              <ProjectMaster />
+            </Route>
+            <Route path="/choose-design">
+              <DesignView />
+            </Route>
+            <Route path="/design-detail">
+              <DesignDetail />
             </Route>
           </Switch>
         </div>
       </Router>
-
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
