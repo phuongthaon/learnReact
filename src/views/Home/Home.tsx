@@ -10,9 +10,6 @@ function Home() {
       <Router>
         <div>
           <Switch>
-            <Route path="/">
-              <LandingPageView />
-            </Route>
             <Route path="/project-master">
               <ProjectMaster />
             </Route>
@@ -21,6 +18,9 @@ function Home() {
             </Route>
             <Route path="/design-detail">
               <DesignDetail />
+            </Route>
+            <Route exact path="/">
+              <LandingPageView />
             </Route>
           </Switch>
         </div>

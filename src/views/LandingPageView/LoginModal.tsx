@@ -2,7 +2,6 @@
 import "./LandingPage.scss";
 import { Form, Input, Modal, ModalProps } from "antd";
 import React from "react";
-import { Link } from "react-router-dom";
 
 function LoginModal(props: ModalProps) {
   const { visible } = props;
@@ -13,6 +12,10 @@ function LoginModal(props: ModalProps) {
   const onFinishFailed = (errorInfo: any) => {
     console.log("Failed:", errorInfo);
   };
+
+  const handleRedirect = React.useCallback(() => {
+    window.location.href = `/project-master`;
+  }, []);
 
   return (
     <div className="">
@@ -38,10 +41,11 @@ function LoginModal(props: ModalProps) {
           >
             <Input.Password placeholder="Enter your password" />
           </Form.Item>
-          <div className="landing-page_btn text-align-center">
-            <Link to="/project-master">
-              <div style={{ color: "#fff" }}>LOGIN</div>
-            </Link>
+          <div
+            className="landing-page_btn text-align-center"
+            onClick={handleRedirect}
+          >
+            <div style={{ color: "#fff" }}>LOGIN</div>
           </div>
         </Form>
       </Modal>
