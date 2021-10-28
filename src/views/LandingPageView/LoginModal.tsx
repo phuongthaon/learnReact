@@ -14,7 +14,7 @@ function LoginModal(props: ModalProps) {
   };
 
   const handleRedirect = React.useCallback(() => {
-    window.location.href = `/learnReact/project-master`;
+    window.location.href = `/learnReact/project-master/`;
   }, []);
 
   return (

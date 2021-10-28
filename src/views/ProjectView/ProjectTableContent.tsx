@@ -22,7 +22,7 @@ const ProjectTableContent = () => {
   };
 
   const handleOpenDesignPage = React.useCallback(() => {
-    window.location.href = `/learnReact/choose-design`;
+    window.location.href = `/learnReact/choose-design/`;
   }, []);
 
   return (

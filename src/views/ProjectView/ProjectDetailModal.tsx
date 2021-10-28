@@ -49,7 +49,7 @@ function ProjectDetailModal(props: ProjectDetailModalProps) {
             className="project-detail_btn text-align-center mt-24"
             onClick={handleClose}
           >
-            <Link to="/learnReact/project-master">
+            <Link to="/learnReact/project-master/">
               <div style={{ color: "#fff" }}>DONE</div>
             </Link>
           </div>
