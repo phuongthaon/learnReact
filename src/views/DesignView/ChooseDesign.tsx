@@ -7,7 +7,7 @@ import React from "react";
 
 function ChooseDesign() {
   const handleChoseDesign = React.useCallback(() => {
-    window.location.href = `/design-detail`;
+    window.location.href = `/learnReact/design-detail`;
   }, []);
   return (
     <div className="page text-align-center">
