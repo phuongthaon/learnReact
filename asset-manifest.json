@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/learnReact/static/css/main.87dcf7c4.chunk.css",
+    "main.js": "/learnReact/static/js/main.a2529709.chunk.js",
+    "main.js.map": "/learnReact/static/js/main.a2529709.chunk.js.map",
+    "runtime-main.js": "/learnReact/static/js/runtime-main.b21b2de7.js",
+    "runtime-main.js.map": "/learnReact/static/js/runtime-main.b21b2de7.js.map",
+    "static/css/2.6f2b73e4.chunk.css": "/learnReact/static/css/2.6f2b73e4.chunk.css",
+    "static/js/2.7570d840.chunk.js": "/learnReact/static/js/2.7570d840.chunk.js",
+    "static/js/2.7570d840.chunk.js.map": "/learnReact/static/js/2.7570d840.chunk.js.map",
+    "index.html": "/learnReact/index.html",
+    "static/css/2.6f2b73e4.chunk.css.map": "/learnReact/static/css/2.6f2b73e4.chunk.css.map",
+    "static/css/main.87dcf7c4.chunk.css.map": "/learnReact/static/css/main.87dcf7c4.chunk.css.map",
+    "static/js/2.7570d840.chunk.js.LICENSE.txt": "/learnReact/static/js/2.7570d840.chunk.js.LICENSE.txt",
+    "static/media/concrete.bea90ed8.png": "/learnReact/static/media/concrete.bea90ed8.png",
+    "static/media/footing-model.c571f453.png": "/learnReact/static/media/footing-model.c571f453.png",
+    "static/media/footing-pressure.844f54c0.png": "/learnReact/static/media/footing-pressure.844f54c0.png",
+    "static/media/footing-steel-arrangement.5b8d78b7.png": "/learnReact/static/media/footing-steel-arrangement.5b8d78b7.png",
+    "static/media/footing.5303eacc.png": "/learnReact/static/media/footing.5303eacc.png",
+    "static/media/landing-bg.9fb175ab.png": "/learnReact/static/media/landing-bg.9fb175ab.png",
+    "static/media/steel.ad2e3169.png": "/learnReact/static/media/steel.ad2e3169.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b21b2de7.js",
+    "static/css/2.6f2b73e4.chunk.css",
+    "static/js/2.7570d840.chunk.js",
+    "static/css/main.87dcf7c4.chunk.css",
+    "static/js/main.a2529709.chunk.js"
+  ]
+}
