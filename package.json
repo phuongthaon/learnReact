@@ -1,7 +1,7 @@
 {
   "name": "learn-reactjs",
   "version": "0.1.0",
-  "homepage": "https://phuongthaon.github.io/",
+  "homepage": "https://phuongthaon.github.io/learnReact/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
