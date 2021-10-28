@@ -10,16 +10,16 @@ function Home() {
       <Router>
         <div>
           <Switch>
-            <Route path="/learnReact/project-master">
+            <Route path="/project-master">
               <ProjectMaster />
             </Route>
-            <Route path="/learnReact/choose-design">
+            <Route path="/choose-design">
               <DesignView />
             </Route>
-            <Route path="/learnReact/design-detail">
+            <Route path="/design-detail">
               <DesignDetail />
             </Route>
-            <Route exact path="/learnReact/">
+            <Route exact path="/">
               <LandingPageView />
             </Route>
           </Switch>
