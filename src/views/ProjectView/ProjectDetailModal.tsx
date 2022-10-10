@@ -1,5 +1,5 @@
 /* begin general import */
-import { DatePicker, Form, Input, Modal, ModalProps } from "antd";
+import { Form, Input, Modal, ModalProps } from "antd";
 import { Link } from "react-router-dom";
 
 interface ProjectDetailModalProps extends ModalProps {
@@ -44,7 +44,6 @@ function ProjectDetailModal(props: ProjectDetailModalProps) {
           >
             <Input placeholder="Enter your client name" />
           </Form.Item>
-          <DatePicker size="large" style={{ width: "100%" }} />
           <div
             className="project-detail_btn text-align-center mt-24"
             onClick={handleClose}
